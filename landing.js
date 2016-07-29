@@ -5,34 +5,34 @@ $(document).ready (function(){
 function imageChange(){
 	var images =
 	[
-		{ image: "img/audrey.jpg"
+		{ image: "assets/img/audrey.jpg"
 		, text: "if only"
 		}
 		,
-		{ image: "img/bernie.jpg"
+		{ image: "assets/img/bernie.jpg"
 		, text: "colonel sanders for fried chicken 2k16"
 		}
 		,
-		{ image: "img/ditto.png"
+		{ image: "assets/img/ditto.png"
 		, text: "same"
 		}
 		,
-		{ image: "img/doge.jpg"
+		{ image: "assets/img/doge.jpg"
 		, text: "me"
 		}
 		,
-		{ image: "img/grumpcat.jpg"
+		{ image: "assets/img/grumpcat.jpg"
 		, text: "on my period"
 		}
 		,
-		{ image: "img/marinette.png"
+		{ image: "assets/img/marinette.png"
 		, text:"me during the last hr of a hackathon"
 		}
 		,
-		{ image: "img/tacobell.jpg"
+		{ image: "assets/img/tacobell.jpg"
 		,  text: "the happiest place on earth"
 		},
-		{ image: "img/tubss.jpg"
+		{ image: "assets/img/tubss.jpg"
 		, text: "i love eating curry"
 		}
 	];
@@ -45,11 +45,11 @@ function imageChange(){
 }
 
 function meFunc() {
-	$("#textArr").load("me.html");
+	$("#textArr").load("assets/pages/me.html");
 }
 
 function projects() {
-	$("#textArr").load("projects.html");
+	$("#textArr").load("assets/pages/projects.html");
 }
 
 function other(){
