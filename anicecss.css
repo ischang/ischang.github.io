@@ -68,7 +68,7 @@ li {
 }
 li:before {
   content: "\f1c9"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
+  font-family: "FontAwesome";
   display: inline-block;
   margin-left: -1.3em; /* same as padding-left set on li */
   width: 1.3em; /* same as padding-left set on li */
