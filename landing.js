@@ -58,7 +58,7 @@ function imageChange(){
 }
 
 function meFunc() {
-	$("#rightLine").load("me.html");
+	$("#textArr").load("me.html");
 }
 
 
