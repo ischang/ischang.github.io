@@ -1,6 +1,6 @@
 h1 {
 	font-family:"Work Sans", sans-serif;
-	font-size: 80px;
+	font-size: 100px;
 	font-weight:100;
 	padding-top:50px;
 	line-height:50px;
@@ -9,21 +9,50 @@ h1 {
 
 h2 {
 	font-family:"Dawning of a New Day", cursive;
-	padding-left:100px;
+	font-size:40px;
 }
 
+h3 {
+	line-height:13px;
+	font-family: "Work Sans", sans-serif;
+}
+
+.wrapper {
+	text-align:center;
+}
+
+.titleSub {
+	display:inline
+}
+
+.quoteGenerator {
+	display:inline
+}
 
 #titleName{
-	text-shadow: 0.5px 0.5px 0.5px grey;
+	text-shadow: 0.8px 0.8px 0.8px grey;
 }
 
 .icons {
-	padding-left:250px;
+	padding-top:8px;
 }
-
-.icon{
+.icon {
 	padding:4px;
-	color: pink;
+	color: purple;
 }
 
+.link {
+	display:inline;
+	color:black;
+	padding-right:20px;
+}
 
+a {
+	color:black;
+}
+
+a:hover {
+	color:purple;
+	opacity:0.7;
+	text-decoration:none;
+}
