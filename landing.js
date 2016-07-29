@@ -5,34 +5,34 @@ $(document).ready (function(){
 function imageChange(){
 	var images =
 	[
-		{ image: "audrey.jpg"
+		{ image: "img/audrey.jpg"
 		, text: "if only"
 		}
 		,
-		{ image: "bernie.jpg"
+		{ image: "img/bernie.jpg"
 		, text: "colonel sanders for fried chicken 2k16"
 		}
 		,
-		{ image: "ditto.png"
+		{ image: "img/ditto.png"
 		, text: "same"
 		}
 		,
-		{ image: "doge.jpg"
+		{ image: "img/doge.jpg"
 		, text: "me"
 		}
 		,
-		{ image: "grumpcat.jpg"
+		{ image: "img/grumpcat.jpg"
 		, text: "on my period"
 		}
 		,
-		{ image: "marinette.png"
+		{ image: "img/marinette.png"
 		, text:"me during the last hr of a hackathon"
 		}
 		,
-		{ image: "tacobell.jpg"
+		{ image: "img/tacobell.jpg"
 		,  text: "the happiest place on earth"
 		},
-		{ image: "tubss.jpg"
+		{ image: "img/tubss.jpg"
 		, text: "i love eating curry"
 		}
 	];
