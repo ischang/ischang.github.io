@@ -34,6 +34,10 @@ a:hover {
 	text-decoration:none;
 }
 
+#imageOther {
+	padding-right:40px;
+}
+
 .rotate {
 	/* Safari */
 	-webkit-transform: rotate(-5deg);

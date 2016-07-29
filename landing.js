@@ -52,9 +52,9 @@ function projects() {
 	$("#textArr").load("assets/pages/projects.html");
 }
 
-function other(){
-	$("#textArr").load("assets/pages/other.html");
-}
+// function other(){
+// 	$("#textArr").load("assets/pages/other.html");
+// }
 
 function quote (){
 	var quotes =
