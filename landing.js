@@ -62,7 +62,7 @@ function meFunc() {
 }
 
 function projects() {
-	document.getElementById("textArr").innerHTML = "meow"
+	$("#textArr").load("projects.html");
 }
 
 function other(){
