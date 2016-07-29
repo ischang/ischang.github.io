@@ -18,6 +18,12 @@ h3 {
 	font-family: "Work Sans", sans-serif;
 }
 
+h4 {
+	font-family: "Pacifico", cursive;
+	color: purple;
+	font-size:16px;
+}
+
 a {
 	color:black;
 }
@@ -28,6 +34,24 @@ a:hover {
 	text-decoration:none;
 }
 
+.rotate {
+	/* Safari */
+	-webkit-transform: rotate(-5deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-5deg);
+
+	/* IE */
+	-ms-transform: rotate(-5deg);
+
+	/* Opera */
+	-o-transform: rotate(-5deg);
+	/*IE I'm not even going to bother*/
+}
+
+#titleText {
+	color:purple;
+}
 .wrapper {
 	text-align:center;
 }
@@ -44,10 +68,17 @@ a:hover {
 	color: purple;
 }
 
+.projIcon {
+	color:purple;
+}
 .link {
 	display:inline;
 	color:black;
 	padding-right:20px;
+}
+
+#textArr {
+	font-family:"Work Sans", sans-serif;
 }
 
 a.meText {
