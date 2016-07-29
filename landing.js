@@ -58,7 +58,6 @@ function imageChange(){
 }
 
 function meFunc() {
-	$("#leftLine").load("meImg.html");
 	$("#rightLine").load("me.html");
 }
 
