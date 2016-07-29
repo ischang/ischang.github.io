@@ -61,4 +61,7 @@ function meFunc() {
 	$("#textArr").load("me.html");
 }
 
+function projects() {
+	document.getElementById("textArr").innerHTML = "meow"
+}
 
