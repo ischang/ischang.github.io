@@ -1,0 +1,29 @@
+h1 {
+	font-family:"Work Sans", sans-serif;
+	font-size: 80px;
+	font-weight:100;
+	padding-top:50px;
+	line-height:50px;
+/*	font-weight:100;*/
+}
+
+h2 {
+	font-family:"Dawning of a New Day", cursive;
+	padding-left:100px;
+}
+
+
+#titleName{
+	text-shadow: 0.5px 0.5px 0.5px grey;
+}
+
+.icons {
+	padding-left:250px;
+}
+
+.icon{
+	padding:4px;
+	color: pink;
+}
+
+
