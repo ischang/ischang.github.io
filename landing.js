@@ -13,10 +13,6 @@ $(document).ready (function(){
 	var randNum = Math.floor(Math.random() * quotes.length);
 
 	document.getElementById("titleSub").innerHTML = quotes[randNum];
-
-	$("#me").click(function() {
-		$("#rightLine").append()
-	});
 });
 
 function imageChange(){
@@ -60,4 +56,9 @@ function imageChange(){
 	document.getElementById('propic').src = images[randNum].image;
 	document.getElementById('propic').title = images[randNum].text;
 }
+
+function meFunc() {
+	$("#rightLine").load("me.html");
+}
+
 
