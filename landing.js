@@ -23,39 +23,41 @@ function imageChange(){
 	var images =
 	[
 		{ image: "audrey.jpg"
-		, text: ""
+		, text: "if only"
 		}
 		,
 		{ image: "bernie.jpg"
-		, text:""
+		, text: "colonel sanders for fried chicken 2k16"
 		}
 		,
-		{ image: "ditto.jpg"
-		, text:""
+		{ image: "ditto.png"
+		, text: "same"
 		}
 		,
 		{ image: "doge.jpg"
-		, text:""
+		, text: "me"
 		}
 		,
 		{ image: "grumpcat.jpg"
-		, text:""
+		, text: "on my period"
 		}
 		,
 		{ image: "marinette.png"
-		, text:""
+		, text:"me during the last hr of a hackathon"
 		}
 		,
 		{ image: "tacobell.jpg"
-		,  text:""
+		,  text: "the happiest place on earth"
 		},
-		{ image: "tubb.jpg"
-		, text:""
+		{ image: "tubss.jpg"
+		, text: "i love eating curry"
 		}
 	];
 
 	var randNum = Math.floor(Math.random() * images.length);
 
-	var changedImg = "this.src=' "+ images[randNum].image + "';"
-	return changedImg;
+	//var changedImg = "this.src='"+ images[randNum].image + "';"
+	document.getElementById('propic').src = images[randNum].image;
+	document.getElementById('propic').title = images[randNum].text;
 }
+
