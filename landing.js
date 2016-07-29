@@ -53,7 +53,7 @@ function projects() {
 }
 
 function other(){
-	$("#textArr").load("assets/pages/other.html")
+	$("#textArr").load("assets/pages/other.html");
 }
 
 function quote (){
