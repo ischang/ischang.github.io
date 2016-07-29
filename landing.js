@@ -53,7 +53,7 @@ function projects() {
 }
 
 function other(){
-
+	//nothing here yet
 }
 
 function quote (){
