@@ -40,16 +40,16 @@ a:hover {
 
 .rotate {
 	/* Safari */
-	-webkit-transform: rotate(-5deg);
+	-webkit-transform: rotate(5deg);
 
 	/* Firefox */
-	-moz-transform: rotate(-5deg);
+	-moz-transform: rotate(5deg);
 
 	/* IE */
-	-ms-transform: rotate(-5deg);
+	-ms-transform: rotate(5deg);
 
 	/* Opera */
-	-o-transform: rotate(-5deg);
+	-o-transform: rotate(5deg);
 	/*IE I'm not even going to bother*/
 }
 
