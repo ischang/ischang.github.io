@@ -1,3 +1,5 @@
+randNum = 0;
+
 $(document).ready (function(){
 	quote();
 });
@@ -31,15 +33,28 @@ function imageChange(){
 		,
 		{ image: "assets/img/tacobell.jpg"
 		,  text: "the happiest place on earth"
-		},
+		}
+		,
 		{ image: "assets/img/tubss.jpg"
 		, text: "i love eating curry"
 		}
+		,
+		{ image: "assets/img/mulan.jpg"
+		, text : "was i a fool in school for cutting gym"
+		}
 	];
 
+	var seqNum;
 	var randNum = Math.floor(Math.random() * images.length);
 
-	//var changedImg = "this.src='"+ images[randNum].image + "';"
+	// to prevent two images in a row, check if the previous image
+	// is the image now
+	if (seqNum === randNum) {
+		randNum += randNum;
+	}
+
+	seqNum = randNum;
+
 	document.getElementById('propic').src = images[randNum].image;
 	document.getElementById('propic').title = images[randNum].text;
 }
