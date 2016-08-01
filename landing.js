@@ -51,7 +51,7 @@ function imageChange(){
 	// to prevent two images in a row, check if the previous image
 	// is the image now
 	if (seqNum === randNum) {
-		randNum += randNum;
+		randNum = (randNum == images.length) ? randNum-1 : randNum+1;
 	}
 
 	seqNum = randNum;
