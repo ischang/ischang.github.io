@@ -40,7 +40,7 @@ function imageChange(){
 		}
 		,
 		{ image: "assets/img/mulan.jpg"
-		, text : "was i a fool in school for cutting gym"
+		, text : "i was a fool in school for cutting gym"
 		}
 	];
 
