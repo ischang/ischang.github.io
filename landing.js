@@ -4,6 +4,8 @@ $(document).ready (function(){
 	quote();
 });
 
+var seqNum;
+
 function imageChange(){
 	var images =
 	[
@@ -44,7 +46,6 @@ function imageChange(){
 		}
 	];
 
-	var seqNum;
 	var randNum = Math.floor(Math.random() * images.length);
 
 	// to prevent two images in a row, check if the previous image
