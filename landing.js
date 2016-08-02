@@ -18,31 +18,35 @@ function imageChange(){
 		}
 		,
 		{ image: "assets/img/ditto.png"
-		, text: "same"
+		, text : "same"
 		}
 		,
 		{ image: "assets/img/doge.jpg"
-		, text: "me"
+		, text : "me"
 		}
 		,
 		{ image: "assets/img/grumpcat.jpg"
-		, text: "on my period"
+		, text : "on my period"
 		}
 		,
 		{ image: "assets/img/marinette.png"
-		, text:"me during the last hr of a hackathon"
+		, text : "me during the last hr of a hackathon"
 		}
 		,
 		{ image: "assets/img/tacobell.jpg"
-		,  text: "the happiest place on earth"
+		, text : "the happiest place on earth"
 		}
 		,
 		{ image: "assets/img/tubss.jpg"
-		, text: "i love eating curry"
+		, text : "i love eating curry"
 		}
 		,
 		{ image: "assets/img/mulan.jpg"
 		, text : "i was a fool in school for cutting gym"
+		}
+		,
+		{ image: "assets/img/sriracha.jpg"
+		, text : "hot sauce in my bag swag"
 		}
 	];
 
