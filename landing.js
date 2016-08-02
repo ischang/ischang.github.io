@@ -85,6 +85,7 @@ function quote (){
 	, 'git add, git commit, git push, git some sleep'
 	, 'manhole covers are round because they\'re not edgy enough'
 	, 'of course i speak python. hisssssss'
+	, 'fighting evil by moonlight. fixing bugs by daylight.'
 	];
 
 	var randNum = Math.floor(Math.random() * quotes.length);
