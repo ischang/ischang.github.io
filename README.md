@@ -1,2 +1,2 @@
 # Stephanie Chang's WOBSITE
-check it out at ischang.github.io! :) 
+check it out at stephanieischang.me! :) 
