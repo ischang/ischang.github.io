@@ -119,8 +119,7 @@ ul.noneUl2 {
 }
 
 ul {
-	list-style: none;
-	padding: 0;
+	padding-left: 20px;
 }
 
 /*li.me:before {
@@ -130,9 +129,4 @@ ul {
   margin-left: -1.3em; 
   width: 1.3em; 
 }*/
-
-
-li {
-  padding-left: 1.3em;
-}
 
