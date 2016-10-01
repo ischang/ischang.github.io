@@ -1,3 +1,4 @@
+/*Fonts, Sizes, and All That Jazz*/
 h1 {
 	font-family:"Work Sans", sans-serif;
 	font-size: 100px;
@@ -24,6 +25,7 @@ h4 {
 	font-size:16px;
 }
 
+/*Links*/
 a {
 	color:black;
 }
@@ -32,6 +34,22 @@ a:hover {
 	color:purple;
 	opacity:0.7;
 	text-decoration:none;
+}
+
+/*Carousel*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  height: 345px;
+  width:auto;
+  margin: auto;
+}
+.carousel{
+  background-color: white;
+  width:auto;
+  height:auto;
+}
+.carousel-control.left, .carousel-control.right {
+  background: none;  
 }
 
 #imageOther {
@@ -61,7 +79,7 @@ a:hover {
 }
 
 #titleName{
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px gray;
 }
 
 .icons {
@@ -90,22 +108,31 @@ a.meText {
 }
 
 .dateText{
-	color:grey;
+	color:gray;
+}
+
+/*Lists*/
+ul.noneUl2 {
+  list-style: none;
+  padding: 0;
+  text-align:center;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
 }
+
+/*li.me:before {
+  content: "\f1b2"; 
+  font-family: "FontAwesome";
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em; 
+}*/
+
 
 li {
   padding-left: 1.3em;
 }
 
-li:before {
-  content: "\f1b2"; /* FontAwesome Unicode */
-  font-family: "FontAwesome";
-  display: inline-block;
-  margin-left: -1.3em; /* same as padding-left set on li */
-  width: 1.3em; /* same as padding-left set on li */
-}
