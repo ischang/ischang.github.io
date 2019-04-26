@@ -68,14 +68,6 @@ function meFunc() {
 	$("#textArr").load("assets/pages/me.html");
 }
 
-function projects() {
-	$("#textArr").load("assets/pages/projects.html");
-}
-
-// function other(){
-// 	$("#textArr").load("assets/pages/other.html");
-// }
-
 function quote (){
 	var quotes =
 	[ 'it\'s like i\'m a developer or something'

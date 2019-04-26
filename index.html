@@ -24,6 +24,7 @@
 		<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
 <body>
+<div class = "circle">
 	<div class="container">
 		<div class = "wrapper">
 			<h1>
@@ -34,29 +35,52 @@
 			</h2>
 			<h3>
 				<div class = "aboutLinks">
-					<a class = "link" onclick = "meFunc();" id = "me">me</a>
-					<a class = "link" onclick = "projects();" id = "projects">projects</a>
-					<!-- <a class = "link" onclick = "other();" ="">other</a> -->
-					<a class = "link" title = "random quote generator" onclick = "quote();"><i class="fa fa-1x fa-quote-left"></i></a>
+					<a class = "quotation" title = "random quote generator" onclick = "quote();"><i class="fa fa-1x fa-quote-left"></i></a>
 				</div>
 			</h3>
 			<div class = "icons">
-				<a class="icon" href ="http://linkedin.com/in/stephanieischang"><i class = "fa fa-2x fa-linkedin"></i></a>
-				<a class ="icon" href="http://github.com/ischang"><i class ="fa fa-2x fa-github"></i></a>
-				<a class = "icon" href = "http://devpost.com/ischang"><i class = "fa fa-2x fa-codepen"></i></a>
-				<a class="icon" href="mailto:ischang@ucdavis.edu"><i class = "fa fa-2x fa-envelope"></i></a>
-				<a class = "icon" href = "http://ischang.github.io/StephanieChangResume.pdf"><i class = "fa fa-2x fa-file-o"></i></a>
+				<a class="icon-pink" href ="http://linkedin.com/in/stephanieischang"><i class = "fa fa-2x fa-linkedin"></i></a>
+				<a class ="icon-blue" href="http://github.com/ischang"><i class ="fa fa-2x fa-github"></i></a>
+				<a class="icon-purple" href="mailto:ischang@ucdavis.edu"><i class = "fa fa-2x fa-envelope"></i></a>
+				<a class = "icon" href = "http://ischang.github.io/StephanieChangResume.pdf"><i class = "fa fa-2x fa-file"></i></a>
 			</div>
 		</div>
+
 		<div class = "row" id = "textArr" style = "padding-top:20px;">
+            <div class = "col-sm-2"></div>
 			<div class = "col-sm-4" id = "leftLine" style = "margin-right:15px;">
-				<script type = "text/javascript">
-					$("#textArr").load("assets/pages/me.html");
-				</script>
-			</div> 
-		</div>
+                <div style = "text-align:center; padding-top:50px;position:relative;">
+                    <img id = "propic" src = "assets/img/me.jpg" class = "img-circle" style = "width:250px; height:250px;" onmouseover = "imageChange();" onmouseout ="this.src = 'assets/img/me.jpg';">
+                </div>
+                <h4>
+                    <div class = "rotate" style = "text-align:center;">this is me <i class = "fa fa-1x fa-pagelines"></i> <br> try hovering over!</div>
+                </h4>
+            </div>
+            <div class = "col-sm-5" id = "rightLine">
+                <text>
+                    <small>updated: 04/24/2019</small>
+                    <b><h3>About me</h3></b>
+                    <br>
+                    Hello there! I'm Stephanie! Welcome to my <a href = "https://xkcd.com/148/" class = "linkRef"> wobsite</a>!
+                    <br><br>I'm currently a software engineer in Kirkland, WA at GoDaddy on the Platform API team!
+                    <br><br>
+                    <h3> Here are some things I like -- </h3>
+                    <ul>
+                        <li> helping out women, queers, &amp;&amp; marginalized folks in tech </li>
+                        <li> signing up for a gym and never going</li>
+                        <li><span class = "shake-hard"> css shake</span></li>
+                        <li> big cities and book clubs</li>
+                        <li> saying i'm busy when friends ask about my plans and then watching korean dramas all night</li>
+                        <li> chicken tikka masala, macarons, and <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" class = "linkRef"> legend of zelda </a> </li>
+                    </ul>
+                </text>
+			</div>
+        </div>
 		<div class = "col-sm-1"></div>
 		</div>
+    </div>
+    </div>
+    </div>
 </body>
 
 <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
