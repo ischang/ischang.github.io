@@ -1,11 +1,25 @@
 /*Fonts, Sizes, and All That Jazz*/
+body {
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/bg1.jpg);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    height: 100%;
+}
 h1 {
 	font-family:"Work Sans", sans-serif;
 	font-size: 100px;
 	font-weight:100;
 	padding-top:50px;
 	line-height:70px;
-/*	font-weight:100;*/
 }
 
 h2 {
@@ -21,39 +35,28 @@ h3 {
 
 h4 {
 	font-family: "Pacifico", cursive;
-	color: purple;
+	color: deeppink;
 	font-size:16px;
 }
 
-/*Links*/
+/* links*/
 a {
 	color:black;
 }
 
 a:hover {
-	color:purple;
-	opacity:0.7;
+	color:deeppink;
+	opacity:0.4;
 	text-decoration:none;
 }
 
-/*Carousel*/
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  height: 345px;
-  width:auto;
-  margin: auto;
-}
-.carousel{
-  background-color: white;
-  width:auto;
-  height:auto;
-}
-.carousel-control.left, .carousel-control.right {
-  background: none;  
+a.linkRef {
+    color:deeppink;
 }
 
-#imageOther {
-	padding-right:40px;
+/* misc changes to text */
+.dateText{
+    color:gray;
 }
 
 .rotate {
@@ -71,47 +74,94 @@ a:hover {
 	/*IE I'm not even going to bother*/
 }
 
-#titleText {
-	color:purple;
+/* circle flex div */
+.circle {
+    border-radius: 1000px;
+    border: 1px solid #FFDADA;
+    background-color: #FFF8F8;
+    width: 1000px;
+    opacity: 0.8;
+    z-index: 5;
+    align-content: flex-start;
+    height: 1000px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.wrapper {
+
+/* item divs */
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .title {
+    padding-top: 50px;
 	text-align:center;
 }
 
-#titleName{
-	text-shadow: 1px 1px 1px gray;
+.item .bio {
+    padding-right: 10px;
 }
 
-.icons {
+.item propic {
+    text-align:center;
+    padding-top:50px;
+    position:relative;
+}
+
+#titleName{
+	text-shadow: 2px 2px 2px lightpink;
+    color: deeppink;
+    text-align: center;
+}
+
+.headingTitle {
+    color: deeppink;
+}
+
+/*icons*/
+#icons {
 	padding-top:8px;
 }
+
 .icon {
-	padding:10px;
+    padding: 10px;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.icon.blue {
+    color: royalblue;
+}
+
+.icon.lightpink{
+    color: hotpink;
+}
+
+.icon.pink{
+	color: deeppink;
+}
+
+.icon.darkblue{
+    color: cornflowerblue;
+}
+
+.icon.purple{
+    color: rebeccapurple;
+}
+
+.icon.quotation {
+    padding: 10px;
 	color: purple;
 }
 
-.projIcon {
-	color:purple;
-}
-.link {
-	display:inline;
-	color:black;
-	padding-right:20px;
-}
-
-#textArr {
-	font-family:"Work Sans", sans-serif;
-}
-
-a.meText {
-	color:purple;
-}
-
-.dateText{
-	color:gray;
-}
-
-/*Lists*/
+/*lists*/
 ul.noneUl {
   list-style: none;
   padding: 0;
@@ -120,12 +170,4 @@ ul.noneUl {
 ul {
 	padding-left: 20px;
 }
-
-/*li.me:before {
-  content: "\f1b2"; 
-  font-family: "FontAwesome";
-  display: inline-block;
-  margin-left: -1.3em; 
-  width: 1.3em; 
-}*/
 
