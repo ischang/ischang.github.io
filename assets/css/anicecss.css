@@ -88,6 +88,7 @@ a.linkRef {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 100px;
 }
 
 /* item divs */
@@ -116,6 +117,10 @@ a.linkRef {
 #titleName{
 	text-shadow: 2px 2px 2px lightpink;
     color: deeppink;
+    text-align: center;
+}
+
+#titleSub {
     text-align: center;
 }
 

@@ -1,6 +1,8 @@
 $(document).ready (function(){
 	quote();
   $(".icon").tooltip({ show: { effect: "blind", duration: 800, selector: true } });
+  
+
 });
 
 var seqNum;
@@ -58,9 +60,9 @@ function imageChange(){
 	}
 
 	seqNum = randNum;
-
+  document.getElementById('propic').src = images[randNum].image;
   $("#propic").attr('title', images[randNum].text).tooltip('fixTitle').tooltip('show');
-  $("#propic").attr('src', images[randNum].image).tooltip('show');
+  // $("#propic").attr('src', images[randNum].image).tooltip('show');
 }
 
 function quote (){
