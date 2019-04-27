@@ -59,16 +59,10 @@ function imageChange(){
 
 	seqNum = randNum;
 
-  // document.getElementById('propic').src = images[randNum].image;
   $("#propic").attr('title', images[randNum].text).tooltip('fixTitle').tooltip('show');
   $("#propic").attr('src', images[randNum].image).tooltip('show');
 }
 
-
-function onMouse() {
-  $("#propic").tooltip({ show: { effect: "blind", duration: 800, selector: true} });
-  document.getElementById('propic').title;
-}
 function quote (){
 
 	var quotes =
