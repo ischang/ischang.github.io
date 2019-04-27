@@ -1,4 +1,4 @@
-randNum = 0;
+let randNum = 0;
 
 $(document).ready (function(){
 	quote();
@@ -64,11 +64,10 @@ function imageChange(){
 	document.getElementById('propic').title = images[randNum].text;
 }
 
-function meFunc() {
-	$("#textArr").load("assets/pages/me.html");
-}
+// $("#propic").tooltip({ show: { effect: "blind", duration: 800 } });
 
 function quote (){
+  $(".quotation").tooltip({ show: { effect: "blind", duration: 800 } });
 	var quotes =
 	[ 'it\'s like i\'m a developer or something'
 	, 'software engineer by night, snorlax by day'

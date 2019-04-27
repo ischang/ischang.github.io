@@ -47,7 +47,7 @@ a {
 
 a:hover {
 	color:deeppink;
-	opacity:0.7;
+	opacity:0.4;
 	text-decoration:none;
 }
 
@@ -70,45 +70,80 @@ a:hover {
 	/*IE I'm not even going to bother*/
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-}
+/*.container {*/
+    /*border: 5px solid black;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-content: flex-start;*/
+    /*-webkit-flex-flow: row wrap;*/
+    /*flex-direction: row;*/
+    /*text-align: center;*/
+/*}*/
 
 .circle {
-    border-radius: 600px;
-    background-color: white;
-    width: 100%;
-    height: 100%;
+    border-radius: 1000px;
+    border: 1px solid #FFDADA;
+    background-color: #FFF8F8;
+    width: 1000px;
+    opacity: 0.86;
+    z-index: 5;
+    align-content: flex-start;
+    height: 1000px;
     color: black;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 0px;
 }
 
-.wrapper {
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .title {
+    padding-top: 50px;
 	text-align:center;
 }
 
+.item .bio {
+    padding-right: 10px;
+}
+
+.item propic {
+    text-align:center;
+    padding-top:50px;
+    position:relative;
+}
+
 #titleName{
-	text-shadow: 1px 1px 1px gray;
+	text-shadow: 2px 2px 2px lightpink;
+    color: deeppink;
+    text-align: center;
+}
+
+.headingTitle {
+    color: deeppink;
 }
 
 .icons {
 	padding-top:8px;
 }
 
-.icon{
+.icon-lightblue {
     padding: 10px;
-    color: deeppink;
+    color: royalblue;
 }
+
+.icon-lightpink{
+    padding: 10px;
+    color: hotpink;
+}
+
 .icon-pink{
 	padding:10px;
-	color: hotpink;
+	color: deeppink;
 }
 
 .icon-blue{
@@ -122,8 +157,9 @@ a:hover {
 }
 
 .quotation {
+    padding:10px;
 	display:inline;
-	color:black;
+	color:purple;
 	padding-right:20px;
 }
 
