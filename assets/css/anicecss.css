@@ -20,7 +20,6 @@ h1 {
 	font-weight:100;
 	padding-top:50px;
 	line-height:70px;
-/*	font-weight:100;*/
 }
 
 h2 {
@@ -40,7 +39,7 @@ h4 {
 	font-size:16px;
 }
 
-/*Links*/
+/* links*/
 a {
 	color:black;
 }
@@ -51,8 +50,13 @@ a:hover {
 	text-decoration:none;
 }
 
-#imageOther {
-	padding-right:40px;
+a.linkRef {
+    color:deeppink;
+}
+
+/* misc changes to text */
+.dateText{
+    color:gray;
 }
 
 .rotate {
@@ -70,16 +74,7 @@ a:hover {
 	/*IE I'm not even going to bother*/
 }
 
-/*.container {*/
-    /*border: 5px solid black;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-content: flex-start;*/
-    /*-webkit-flex-flow: row wrap;*/
-    /*flex-direction: row;*/
-    /*text-align: center;*/
-/*}*/
-
+/* circle flex div */
 .circle {
     border-radius: 1000px;
     border: 1px solid #FFDADA;
@@ -95,6 +90,7 @@ a:hover {
     align-items: center;
 }
 
+/* item divs */
 .item {
     display: flex;
     flex-direction: column;
@@ -127,51 +123,45 @@ a:hover {
     color: deeppink;
 }
 
-.icons {
+/*icons*/
+#icons {
 	padding-top:8px;
 }
 
-.icon-lightblue {
+.icon {
     padding: 10px;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.icon.blue {
     color: royalblue;
 }
 
-.icon-lightpink{
-    padding: 10px;
+.icon.lightpink{
     color: hotpink;
 }
 
-.icon-pink{
-	padding:10px;
+.icon.pink{
 	color: deeppink;
 }
 
-.icon-blue{
-    padding:10px;
+.icon.darkblue{
     color: cornflowerblue;
 }
 
-.icon-purple{
-    padding:10px;
+.icon.purple{
     color: rebeccapurple;
 }
 
-.quotation {
-    padding:10px;
-	display:inline;
-	color:purple;
-	padding-right:20px;
+.icon.quotation {
+    padding: 10px;
+	color: purple;
 }
 
-a.linkRef {
-	color:deeppink;
-}
-
-.dateText{
-	color:gray;
-}
-
-/*Lists*/
+/*lists*/
 ul.noneUl {
   list-style: none;
   padding: 0;

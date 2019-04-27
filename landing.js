@@ -1,7 +1,6 @@
-let randNum = 0;
-
 $(document).ready (function(){
 	quote();
+  $(".icon").tooltip({ show: { effect: "blind", duration: 800, selector: true } });
 });
 
 var seqNum;
@@ -61,13 +60,16 @@ function imageChange(){
 	seqNum = randNum;
 
 	document.getElementById('propic').src = images[randNum].image;
-	document.getElementById('propic').title = images[randNum].text;
+  $("#propic").attr('title', images[randNum].text).tooltip('fixTitle').tooltip('show');
 }
 
-// $("#propic").tooltip({ show: { effect: "blind", duration: 800 } });
 
+function onMouse() {
+  $("#propic").tooltip({ show: { effect: "blind", duration: 800, selector: true} });
+  document.getElementById('propic').title;
+}
 function quote (){
-  $(".quotation").tooltip({ show: { effect: "blind", duration: 800 } });
+
 	var quotes =
 	[ 'it\'s like i\'m a developer or something'
 	, 'software engineer by night, snorlax by day'
