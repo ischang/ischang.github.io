@@ -2,6 +2,6 @@
 check it out at stephanieischang.me! :) 
 
 ## To Do
-- [ ] update resume
+- [ ] update resume (work dates + github link)
 - [ ] update for more recent photo
-- [ ] update heading 
+- [ ] update heading in "things i like"
