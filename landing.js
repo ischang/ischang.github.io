@@ -70,8 +70,7 @@ function quote (){
 	var quotes =
 	[ 'it\'s like i\'m a developer or something'
 	, 'software engineer by night, snorlax by day'
-	, 'dream big. think often. eat lots.'
-	, 'like jane austen and alan turing made a caffeine addicted baby'
+	, '70% sparkling water, 30% sriracha, 100% carbs'
 	, 'git add, git commit, git push, git some sleep'
 	, 'manhole covers are round because they\'re not edgy enough'
 	, 'of course i speak python. hisssssss'
