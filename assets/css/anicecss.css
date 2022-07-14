@@ -78,7 +78,7 @@ a.linkRef {
 .circle {
     border-radius: 1000px;
     border: 1px solid #FFDADA;
-    background-color: #fce8e8;
+    background-color: #faeded;
     width: 1000px;
     z-index: 5;
     align-content: flex-start;
