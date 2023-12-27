@@ -145,7 +145,7 @@ a.linkRef {
 }
 
 .icon.lightpink{
-    color: hotpink;
+    color: rgba(174, 57, 112, 0.8);
 }
 
 .icon.pink{
@@ -153,7 +153,7 @@ a.linkRef {
 }
 
 .icon.darkblue{
-    color: cornflowerblue;
+    color: rgba(73, 89, 179, 0.8);
 }
 
 .icon.purple{
