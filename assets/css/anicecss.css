@@ -79,16 +79,8 @@ a.linkRef {
 
 /* circle flex div (was once a circle)*/
 .circle {
-<<<<<<< HEAD
     background-color: rgba(255, 255, 255, 0.55);
     width: 1000px;
-=======
-    border-radius: 1000px;
-    border: 1px solid #FFDADA;
-    background-color: #faeded;
-    width: 1000px;
-    z-index: 5;
->>>>>>> 2107d515fc612d00d671a242c2ccd8f487132b4b
     align-content: flex-start;
     height: 1000px;
     color: black;
